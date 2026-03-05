@@ -87,7 +87,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-20 items-center">
                 <div class="flex-shrink-0 flex items-center gap-2 cursor-pointer" onclick="navigateTo('home')">
-                    <span class="text-3xl">🌱</span>
+                    <span class="text-3xl"><img src="https://uploads.onecompiler.io/44ffc6afn/44ffc3vgr/IMG-20260226-WA0060.jpg" class="h-14 w-auto rounded" alt="Logo"></span>
                     <div class="flex flex-col">
                         <span class="font-bold text-xl text-slate-900 leading-none tracking-tight">Health <span class="text-brand-600">Nexus</span></span>
                         <span class="text-[10px] text-slate-500 font-medium tracking-wider uppercase mt-1">Project Thrive 360°</span>
@@ -101,6 +101,7 @@
                     <button onclick="navigateTo('values')" class="nav-link text-sm font-medium text-slate-600 hover:text-brand-600 transition-colors">Core Values</button>
                     <button onclick="navigateTo('collaborations')" class="nav-link text-sm font-medium text-slate-600 hover:text-brand-600 transition-colors">Collaborations</button>
                     <button onclick="navigateTo('events')" class="nav-link text-sm font-medium text-slate-600 hover:text-brand-600 transition-colors">Events & Training</button>
+                    <button onclick="navigateTo('contact')" class="nav-link text-sm font-medium text-slate-600 hover:text-brand-600 transition-colors">Contact Us</button>
                 </div>
 
                 <!-- Mobile Hamburger -->
@@ -120,6 +121,7 @@
                 <button onclick="navigateTo('values')" class="mobile-nav-link text-left px-4 py-3 rounded-lg text-slate-600 font-medium hover:bg-slate-50">Core Values</button>
                 <button onclick="navigateTo('collaborations')" class="mobile-nav-link text-left px-4 py-3 rounded-lg text-slate-600 font-medium hover:bg-slate-50">Collaborations</button>
                 <button onclick="navigateTo('events')" class="mobile-nav-link text-left px-4 py-3 rounded-lg text-slate-600 font-medium hover:bg-slate-50">Events & Training</button>
+                <button onclick="navigateTo('contact')" class="mobile-nav-link text-left px-4 py-3 rounded-lg text-slate-600 font-medium hover:bg-slate-50">Contact Us</button>
             </div>
         </div>
     </nav>
@@ -725,7 +727,7 @@
             </div>
 
             <!-- Past Events Section -->
-            <div class="bg-slate-900 text-white rounded-3xl p-10 md:p-16 mb-20 relative overflow-hidden">
+            <div class="bg-slate-900 text-white rounded-3xl p-10 md:p-16 mb-20 relative overflow-hidden text-left">
                 <div class="relative z-10">
                     <h2 class="text-3xl font-bold mb-8">A History of Successful Execution</h2>
                     <ul class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -790,6 +792,87 @@
         </div>
     </div>
 
+    <!-- ========================================== -->
+    <!-- PAGE 6: CONTACT US (Custom Provided Code)  -->
+    <!-- ========================================== -->
+    <div id="view-contact" class="page-view pt-28 pb-24 min-h-screen">
+        <section id="contact" class="py-24 bg-slate-50">
+            <div class="max-w-7xl mx-auto px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-bold text-slate-900 mb-4">Contact Us</h2>
+                    <p class="text-lg text-slate-600 max-w-2xl mx-auto">
+                        We welcome collaborations, inquiries, and partnerships. Reach out to the Health Nexus team and we will respond as soon as possible.
+                    </p>
+                </div>
+
+                <div class="grid lg:grid-cols-2 gap-12">
+                    <!-- CONTACT INFORMATION -->
+                    <div class="bg-white rounded-2xl p-10 shadow-sm border border-slate-100 text-left">
+                        <h3 class="text-2xl font-bold text-slate-900 mb-8">Get In Touch</h3>
+                        <div class="space-y-6">
+                            <div>
+                                <p class="text-sm font-semibold text-slate-500 uppercase">Email</p>
+                                <a href="mailto:healthnexus.connect@gmail.com" class="text-lg text-brand-600 font-medium hover:underline">
+                                    healthnexus.connect@gmail.com
+                                </a>
+                            </div>
+
+                            <div>
+                                <p class="text-sm font-semibold text-slate-500 uppercase">Phone</p>
+                                <a href="tel:+923081491893" class="text-lg text-brand-600 font-medium hover:underline">
+                                    +92 308 1491893
+                                </a>
+                            </div>
+
+                            <div>
+                                <p class="text-sm font-semibold text-slate-500 uppercase">LinkedIn</p>
+                                <a href="https://www.linkedin.com/company/health-nexus-org/" target="_blank" class="text-lg text-brand-600 font-medium hover:underline">
+                                    Health Nexus LinkedIn
+                                </a>
+                            </div>
+
+                            <div>
+                                <p class="text-sm font-semibold text-slate-500 uppercase">Instagram</p>
+                                <a href="https://www.instagram.com/healthnexusofficial?igsh=MTk1ZWhjZ2g1c3Mydw==" target="_blank" class="text-lg text-brand-600 font-medium hover:underline">
+                                    @healthnexusofficial
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CONTACT FORM -->
+                    <div class="bg-white rounded-2xl p-10 shadow-sm border border-slate-100 text-left">
+                        <h3 class="text-2xl font-bold text-slate-900 mb-8">Send a Message</h3>
+                        <form class="space-y-6">
+                            <div>
+                                <label class="block text-sm font-medium text-slate-700 mb-2">Full Name</label>
+                                <input type="text" placeholder="Your name"
+                                class="w-full border border-slate-200 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-brand-500">
+                            </div>
+
+                            <div>
+                                <label class="block text-sm font-medium text-slate-700 mb-2">Email</label>
+                                <input type="email" placeholder="Your email"
+                                class="w-full border border-slate-200 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-brand-500">
+                            </div>
+
+                            <div>
+                                <label class="block text-sm font-medium text-slate-700 mb-2">Message</label>
+                                <textarea rows="5" placeholder="Write your message..."
+                                class="w-full border border-slate-200 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-brand-500"></textarea>
+                            </div>
+
+                            <button type="submit"
+                            class="w-full bg-brand-600 text-white py-3 rounded-lg font-semibold hover:bg-brand-700 transition">
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
     <!-- Global Footer -->
     <footer class="bg-slate-950 py-12 border-t border-slate-800 text-center w-full">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -806,6 +889,7 @@
                 <button onclick="navigateTo('values')" class="text-slate-400 hover:text-white transition text-sm">Core Values</button>
                 <button onclick="navigateTo('collaborations')" class="text-slate-400 hover:text-white transition text-sm">Partnerships</button>
                 <button onclick="navigateTo('events')" class="text-slate-400 hover:text-white transition text-sm">Events</button>
+                <button onclick="navigateTo('contact')" class="text-slate-400 hover:text-white transition text-sm">Contact Us</button>
             </div>
             <p class="text-slate-600 text-xs mt-10">
                 &copy; 2026 Health Nexus. All rights reserved.
@@ -837,32 +921,22 @@
 
             // Update Nav Highlighting
             const desktopLinks = document.querySelectorAll('.nav-link');
-            const mobileLinks = document.querySelectorAll('.mobile-nav-link');
-            
-            // Helper function to handle styling
-            const updateLinks = (links, activeClasses, inactiveClasses) => {
-                links.forEach(link => {
-                    const linkText = link.textContent.toLowerCase();
-                    // Custom matching logic
-                    let isTarget = false;
-                    if(pageId === 'home' && linkText.includes('home')) isTarget = true;
-                    if(pageId === 'about' && linkText.includes('about')) isTarget = true;
-                    if(pageId === 'values' && linkText.includes('value')) isTarget = true;
-                    if(pageId === 'collaborations' && linkText.includes('collab')) isTarget = true;
-                    if(pageId === 'events' && linkText.includes('event')) isTarget = true;
-                    
-                    if(isTarget) {
-                        link.className = activeClasses + ` ${link.className.includes('mobile') ? 'mobile-nav-link text-left px-4 py-3 rounded-lg' : 'nav-link text-sm transition-colors'}`;
-                    } else {
-                        link.className = inactiveClasses + ` ${link.className.includes('mobile') ? 'mobile-nav-link text-left px-4 py-3 rounded-lg' : 'nav-link text-sm transition-colors'}`;
-                    }
-                });
-            };
+            desktopLinks.forEach(link => {
+                const linkText = link.textContent.toLowerCase();
+                let isTarget = false;
+                if(pageId === 'home' && linkText.includes('home')) isTarget = true;
+                if(pageId === 'about' && linkText.includes('about')) isTarget = true;
+                if(pageId === 'values' && linkText.includes('value')) isTarget = true;
+                if(pageId === 'collaborations' && linkText.includes('collab')) isTarget = true;
+                if(pageId === 'events' && linkText.includes('event')) isTarget = true;
+                if(pageId === 'contact' && linkText.includes('contact')) isTarget = true;
 
-            // Apply Desktop Nav Styles
-            updateLinks(desktopLinks, 'font-semibold text-brand-600', 'font-medium text-slate-600 hover:text-brand-600');
-            // Apply Mobile Nav Styles
-            updateLinks(mobileLinks, 'bg-brand-50 text-brand-600 font-semibold', 'text-slate-600 font-medium hover:bg-slate-50');
+                if(isTarget) {
+                    link.className = 'nav-link text-sm font-semibold text-brand-600 transition-colors';
+                } else {
+                    link.className = 'nav-link text-sm font-medium text-slate-600 hover:text-brand-600 transition-colors';
+                }
+            });
 
             // Close mobile menu if open
             document.getElementById('mobile-menu').classList.add('hidden');
